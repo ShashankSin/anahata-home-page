@@ -221,6 +221,11 @@ section {
   color: #fff;
   padding: 8px;
   border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+.section--vlog--details--list__text:hover .section--vlog--details--list__span {
+  background-color: #000 !important;
+  color: #fff !important;
 }
 .section--vlog--details--list
   ul
